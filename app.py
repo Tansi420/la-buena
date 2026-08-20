@@ -20,11 +20,11 @@ except:
     pass
 
 st.subheader("Nuestras ondas binaurales:")
-st.write('Aquí puedes encontrar algunas plantillas para producir tus propias ondas binaurales. Puedes copiar cualquiera de ellas y hacerla tan larga como quieras copiando y pegando las secuencias de vocales sin la P inicial'
+st.write('Aquí puedes encontrar algunas plantillas para producir tus propias ondas binaurales. Puedes copiar cualquiera de ellas y hacerla tan larga como quieras copiando y pegando las secuencias de vocales.'
         
         )
            
-st.markdown(f"Quieres escucharlo?, copia el texto")
+st.markdown(f"Onda 1: eoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeoeo")
 text = st.text_area("Ingrese El texto a escuchar.")
 
 tld='com'
