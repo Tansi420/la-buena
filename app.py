@@ -7,7 +7,7 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Conversión de Texto a Audio")
+st.title("Creador de ondas binaurales")
 image = Image.open('gato_raton.png')
 st.image(image, width=350)
 with st.sidebar:
