@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Creador de ondas binaurales")
-image = Image.open('monoaural.png')
+image = Image.open('monoaural.jpg')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona una de las plantillas para comenzar tu sesión binaural.")
