@@ -20,7 +20,7 @@ except:
     pass
 
 st.subheader("Nuestras ondas binaurales:")
-st.write('Aquí puedes encontrar algunas plantillas para producir tus propias ondas binaurales. Puedes copiar cualquiera de ellas y hacerla tan larga como quieras duplicando las secuencias de vocales.'
+st.write('Aquí puedes encontrar algunas plantillas para producir tus propias ondas binaurales. Estas ondas dan un ritmo constante que sirve para estudiar o practicar instrumentos. Puedes copiar cualquiera de ellas y hacerla tan larga como quieras duplicando las secuencias de vocales.'
         
         )
            
@@ -29,7 +29,7 @@ st.markdown(f"Onda 2: uuuuuuuuu... oooooooo... uuuuuuuuu... oooooooo... uuuuuuuu
 st.markdown(f"Onda 3: mmmmmmmmm-oooooooh-mmmmmmmmm-uuuuhhhh-mmmmmmmmm mmmmmmmmm-oooooooh-mmmmmmmmm-uuuuhhhh-mmmmmmmmm mmmmmmmmm-oooooooh-mmmmmmmmm-uuuuhhhh-mmmmmmmmm mmmmmmmmm-oooooooh-mmmmmmmmm-uuuuhhhh-mmmmmmmmm mmmmmmmmm-oooooooh-mmmmmmmmm-uuuuhhhh-mmmmmmmmm ")
 
 
-text = st.text_area("Ingrese El texto a escuchar.")
+text = st.text_area("Ingrese El texto a escuchar (Coloque el idioma en inglés).")
 
 tld='com'
 option_lang = st.selectbox(
